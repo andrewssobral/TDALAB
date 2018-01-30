@@ -1,0 +1,34 @@
+How to install and run TDALAB 1.1.
+
+System requirements
+The toolbox is developped using MATLAB 2008a under 64bit Windows 7. We also tested it in OS X Mountain Lion and it works well.
+* MATLAB 2010 or later is strongly receommended to get full of Tensor Toolbox's standard functionality. 
+* Particularly, in earlier version of MATLAB, the syntax "[~,outputb]=func(...)" is not supported.
+ 
+How to install
+Step 1: Unzip the package to a folder named such as "TDALAB_Home".
+Step 2: Make sure you have installed MATLAB Tensor Toolbox Version 2.4/2.5 and added it to the path of MATLAB. 
+        Otherwise download it from 
+            http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.5.html [Free]
+        and add it to the path of MATLAB.(You may also unzip it to a subfolder of TDALAB_Home. 
+        When you run tdalab the path will be added automatically and removed after you exit tdalab.)
+Step 3: Launch MATLAB and change the current path to the folder TDALAB_Home. Type 'tdalab' in the command line and run it.
+
+Remarek: TDALAB also supports the main functions of the N-Way toolbox which is available at http://www.models.life.ku.dk/nwaytoolbox 
+          for free. If you want to use its functions, download it and simply unzip it to the subfolder 
+          "TDALAB_Home/TDAlgs/nway". TDALAB will find it automatically.
+
+
+Contact, report bugs:
+---------------------------------------------
+zhouguoxu@gmail.com  zhouguoxu@brain.riken.jp
+---------------------------------------------
+Advanced Brain Signal Processing,
+Brain Science Institute,
+RIKEN, JAPAN.   
+zhouguoxu@brain.riken.jp
+http://www.bsp.brain.riken.jp/
+______________________________
+2-1 Hirosawa, Wako Saitama,
+351-0198, JAPAN.
+------------------------------    
